@@ -1,4 +1,4 @@
 touch README.md
-echo "Guessing Game Project" > README.md
-echo $(date) >> README.md
-cat guessinggame.sh | wc -l >> README.md
+echo "Title of Project: Guessing Game Project" > README.md
+echo "Date: " $(date) >> README.md
+echo "Number of lines of code: " $(cat guessinggame.sh | wc -l) >> README.md
